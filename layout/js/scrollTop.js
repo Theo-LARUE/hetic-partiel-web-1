@@ -1,11 +1,12 @@
-var scroll = window.scrollY;
 var header = document.getElementById("header");
+var scroll = window.scrollY;
 
-var toggle = function () {
-  header.classList.toggle('header--hidden', scroll < scrollY);
+window.onscroll = function () {
+  if (scroll > scrollY) {
+    header.classList.add('header--hidden');
+  } else {
+    header.classList.add('header--hidden');
+  }
   scroll = scrollY;
 }
-
-window.onscroll = toggle;
-window.onload = toggle;
-window.onrisize = toggle;
+scrollY

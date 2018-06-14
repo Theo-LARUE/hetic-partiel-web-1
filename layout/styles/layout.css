@@ -49,9 +49,9 @@
 /* Header --------------------------------------------------------------------------------------------------------------- */
 
 #header {
-  display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   width: 100Vw;
   transform: translateY(0%);
@@ -59,7 +59,7 @@
 }
 
 .wrapper--hidden {
-  transform: translateY(100%);
+  transform: translateY(-100%);
 }
 
 #header #logo {
