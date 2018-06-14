@@ -1281,6 +1281,9 @@ table a,
     display: block;
     margin-bottom: 10px;
   }
+  .pushright {
+    display: flex;
+  }
   .pushright li {
     margin-right: 0;
   }
