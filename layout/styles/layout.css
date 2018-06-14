@@ -21,6 +21,16 @@
   float: right;
 }
 
+.nospace a:hover {
+  color: #CF9C67;
+}
+
+.submit-hover:hover {
+  transition: 0.3s;
+  background: transparent;
+  border: 1px solid white;
+}
+
 #topbar ul li {
   display: inline-block;
   margin-right: 15px;
